@@ -21,8 +21,11 @@ Note: **var** defines that your creating a variable
 
 */
 var myName = "Catherine Reyto"
+var instructorName = "Kwame Bryan"
 
-
+for var i = 0; i < 100; i++ {
+    print(i)
+}
 /*:
 Congratulations on creating your first variable. There's many different variables that you can create. An important concept that we must discuss is types. **Types** define the values that can be stored in a variable. A list of the most common value types that you can work with are as follows.
 
@@ -459,7 +462,7 @@ Swift provides a very simple way to loop over all the elements in an array. Beca
 var movies = ["Transformers", "Mall Rats", "Fear and Loathing in Las Vegas", "Cold Mountain", "Deep Blue Sea", "True Romance", "A Clockwork Orange", "Trainspotting", "Toy Soldiers", "Batman Returns"]
 
 for movie in movies {
-    println("My favourite movie is (movies)")
+    println("My favourite movie is \(movie)")
 }
 
 
@@ -483,7 +486,7 @@ var famousPeople = ["Molly Ringwald", "Julia Roberts", "Lindsay Lohan", "Natalie
 var hair = ["red", "brown", "orange", "dark brown"]
 
 for i in 0...4 {
-"(famousPeople[i]) have (hair[i])"
+"\(famousPeople[i]) have \(hair[i])"
 }
 
 
@@ -513,9 +516,9 @@ We can combine two of our previous loops to create this:
 var team = ["Toronto Raptors", "Toronto Maple Leafs", "Toronto Football Club", "Toronto Rock"]
 var sport = ["Basketball", "Hockey", "Soccer", "Lacrosse"]
 for i in 0 ..< count(team) {
-    var str = "(team[i]) play"
+    var str = "\(team[i]) play"
     for _ in 1 ... 5 {
-        str += "(sport[i])"
+        str += "\(sport[i])"
     }
     println(str)
 }
