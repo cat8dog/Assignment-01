@@ -10,6 +10,8 @@
 	<string>iOSDay1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>42E18EB57C82397B36B6B124AE5530A0040D1580</key>
+		<string>github.com:cat8dog/Assignment-01.git</string>
 		<key>E0283BDD0B7F34295ADED2EC68226561535B1F1A</key>
 		<string>github.com:bitmakerlabs/SwiftFundamentals.git</string>
 	</dict>
@@ -17,17 +19,27 @@
 	<string>iOSDay1.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E0283BDD0B7F34295ADED2EC68226561535B1F1A</key>
+		<key>42E18EB57C82397B36B6B124AE5530A0040D1580</key>
 		<string>..</string>
+		<key>E0283BDD0B7F34295ADED2EC68226561535B1F1A</key>
+		<string>../../SwiftFundamentals</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:bitmakerlabs/SwiftFundamentals.git</string>
+	<string>github.com:cat8dog/Assignment-01.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E0283BDD0B7F34295ADED2EC68226561535B1F1A</string>
+	<string>42E18EB57C82397B36B6B124AE5530A0040D1580</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42E18EB57C82397B36B6B124AE5530A0040D1580</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSDay</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
